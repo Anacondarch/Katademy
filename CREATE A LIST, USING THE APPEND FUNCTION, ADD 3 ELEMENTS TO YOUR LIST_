@@ -1,0 +1,69 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "CREATE A LIST, USING THE APPEND FUNCTION, ADD 3 ELEMENTS TO YOUR LIST."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['BMW', 'CADILLAC', 'CHEVROLET', 'DATSUN', 'TOYOTA']\n",
+      "['BMW', 'CADILLAC', 'CHEVROLET', 'DATSUN', 'TOYOTA', 'FORD']\n",
+      "['BMW', 'CADILLAC', 'CHEVROLET', 'DATSUN', 'TOYOTA', 'FORD', 'FIAT']\n",
+      "['BMW', 'CADILLAC', 'CHEVROLET', 'DATSUN', 'TOYOTA', 'FORD', 'FIAT', 'Mitsubishi']\n",
+      "['BMW', 'CADILLAC', 'CHEVROLET', 'DATSUN', 'TOYOTA', 'FORD', 'FIAT', 'Mitsubishi', 'VOLVO']\n"
+     ]
+    }
+   ],
+   "source": [
+    "car_types = [\"BMW\" , \"CADILLAC\" , \"CHEVROLET\" , \"DATSUN\" , \"TOYOTA\"]\n",
+    "print(car_types)\n",
+    "car_types.append(\"FORD\")\n",
+    "print(car_types)\n",
+    "car_types.append(\"FIAT\")\n",
+    "print(car_types)\n",
+    "car_types.append(\"Mitsubishi\")\n",
+    "print(car_types)\n",
+    "car_types.append(\"VOLVO\")\n",
+    "print(car_types)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
